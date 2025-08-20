@@ -29,6 +29,7 @@
               uv
               python
               pythonEnv
+              R
             ];
 
             shellHook = ''
