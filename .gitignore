@@ -10,3 +10,4 @@ plotRJforward.v2old.py
 .Rhistory
 *checkpoint.*
 *.swp
+literate_mcmc_logs/
