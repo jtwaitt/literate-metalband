@@ -258,6 +258,8 @@ def create_bins(origin, present,ts,te,rm_first_bin):
 
 #this relies on globals so if you are using different names, it'll fail
 def print_empirical_rates(n_spec,n_exti,Dt):
+	if Dt[1] < 0.5:
+		Dt[1] = 0.5
 	print("EMPIRICAL BIRTH RATES:")
 	print(n_spec/Dt)
 	print("EMPIRICAL DEATH RATES:")
